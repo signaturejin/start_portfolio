@@ -72,7 +72,7 @@
             // 로고
             .logo {
                 a {
-                    img {width: 70px; height: 70px;}
+                    img {width: 55px; height: 55px;}
                 }
             }
             // gnb
@@ -261,6 +261,7 @@
             position: relative;
             color: #00ff7e;
             font-size: 70px;
+            transition: all 0.1s;
         }
         .leftText {padding: 250px 0 70px;}
         .rightText {
@@ -345,6 +346,34 @@
                                 }
                             }
                         }
+                        .siteWrap {
+                            .text {
+                                i {
+                                    font-size: 10px;
+                                    position: relative;
+                                    top: 50%;
+                                    transform: translateY(-50%);
+                                    &:first-child {margin-right: 5px;}
+                                    &:last-child {margin-left: 5px;}
+                                }
+                            }
+                            button {
+                                cursor: pointer;
+                                border: 2px solid #00ff7e;
+                                color: #00ff7e;
+                                background-color: transparent;
+                                border-radius: 5px;
+                                padding: 6px 13px;
+                                margin-right: 13px;
+                                font-size: 14px;
+                                font-weight: 500;
+                                transition: all 0.3s;
+                                &:hover {
+                                    border: 2px solid #fff;
+                                    color: #fff;
+                                }
+                            }
+                        }
                         .goSite {
                             position: relative;
                             display: inline-block;
@@ -387,6 +416,7 @@
         padding-bottom: 70px;
         font-size: 70px;
         padding-top: 250px;
+        transition: all 0.1s;
     }
     .wrap {
         text-align: center;
@@ -396,5 +426,10 @@
         .phone {
             padding-bottom: 70px;
         }
+    }
+    .thanks {
+        margin-bottom: 80px;
+        text-align: center;
+        font-size: 25px;
     }
 }

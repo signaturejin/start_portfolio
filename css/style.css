@@ -107,8 +107,8 @@ ul, ol, li {
   justify-content: space-between;
 }
 #header .hTop .center .logo a img {
-  width: 70px;
-  height: 70px;
+  width: 55px;
+  height: 55px;
 }
 #header .hTop .center .gnb {
   display: flex;
@@ -294,6 +294,7 @@ ul, ol, li {
   position: relative;
   color: #00ff7e;
   font-size: 70px;
+  transition: all 0.1s;
 }
 #container .section .leftText {
   padding: 250px 0 70px;
@@ -386,6 +387,34 @@ ul, ol, li {
   z-index: 2;
   color: #000;
 }
+#container .portfolio .pfWrap .pf .wrap .info .siteWrap .text i {
+  font-size: 10px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#container .portfolio .pfWrap .pf .wrap .info .siteWrap .text i:first-child {
+  margin-right: 5px;
+}
+#container .portfolio .pfWrap .pf .wrap .info .siteWrap .text i:last-child {
+  margin-left: 5px;
+}
+#container .portfolio .pfWrap .pf .wrap .info .siteWrap button {
+  cursor: pointer;
+  border: 2px solid #00ff7e;
+  color: #00ff7e;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 6px 13px;
+  margin-right: 13px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+#container .portfolio .pfWrap .pf .wrap .info .siteWrap button:hover {
+  border: 2px solid #fff;
+  color: #fff;
+}
 #container .portfolio .pfWrap .pf .wrap .info .goSite {
   position: relative;
   display: inline-block;
@@ -425,6 +454,7 @@ ul, ol, li {
   padding-bottom: 70px;
   font-size: 70px;
   padding-top: 250px;
+  transition: all 0.1s;
 }
 #footer .wrap {
   text-align: center;
@@ -434,4 +464,9 @@ ul, ol, li {
 }
 #footer .wrap .phone {
   padding-bottom: 70px;
+}
+#footer .thanks {
+  margin-bottom: 80px;
+  text-align: center;
+  font-size: 25px;
 }
