@@ -160,6 +160,9 @@ ul, ol, li {
   position: relative;
   bottom: 4.5px;
 }
+#header .hTop.fixed .center .notice {
+  display: none;
+}
 #header .hTop.fixed .center .gnb a {
   color: #000;
 }
