@@ -1,25 +1,3 @@
-// body {
-//     .cursor {
-//         width: 30px;
-//         height: 30px;
-//         border: 2px solid var(--color-basic);
-//         border-radius: 50%;
-//         position: absolute;
-//         z-index: 1000;
-//         transform: translate(-50%,-50%);
-//         pointer-events: none;
-//         transition: all 0.1s ease;
-//         transition-property: background, transform;
-//         transform-origin: 100% 100%;
-//         background-color: var(--color-basic);
-//         background-size: cover;
-//     }
-//     // 마우스 오버했을때 스타일
-//     .cursorChange {
-//         transform: scale(2);
-//         background-color: var(--color-change);
-//     }
-// }
 #header {
     position: relative;
     height: 100vh;
@@ -236,8 +214,6 @@
                 height: 8px;
                 border-radius: 50%;
                 background-color: #fff;
-                // animation: name duration timing-function delay iteration-count direction fill-mode;
-                // animation: wheelAni 1s ease 0 infinite 0 alternate 0;
                 animation-name: wheelAni;
                 animation-duration: 0.4s;
                 animation-timing-function: ease-in;
@@ -257,7 +233,6 @@
     .section {
         margin: 0 auto;
         width: 80%;
-
         .leftText,.rightText {
             position: relative;
             color: #00ff7e;
@@ -292,6 +267,14 @@
     }
     // 포트폴리오
     .portfolio {
+        .subTitle {
+            font-size: 30px; padding-bottom: 30px;
+            background: #00FF7E;
+            background: linear-gradient(to bottom, #00FF7E 0%, #FFFFFF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+        }
         .pfWrap {
             .pf {
                 margin-bottom: 200px;

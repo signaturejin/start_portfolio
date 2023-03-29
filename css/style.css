@@ -331,6 +331,14 @@ ul, ol, li {
   font-size: 17px;
   line-height: 30px;
 }
+#container .portfolio .subTitle {
+  font-size: 30px;
+  padding-bottom: 30px;
+  background: #00FF7E;
+  background: linear-gradient(to bottom, #00FF7E 0%, #FFFFFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 #container .portfolio .pfWrap .pf {
   margin-bottom: 200px;
 }
