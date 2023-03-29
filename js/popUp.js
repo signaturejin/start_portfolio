@@ -5,7 +5,7 @@ let tabletOption = "width=1024px, height=768px, top=100px, left=300px, resizable
 // 모바일 버전 옵션
 let mobileOption = "width=420px, height=740px, top=100px, left=500px, resizable=no";
 
-// 포트폴리오1
+// 동글투어
 let pcPopup1 = ()=>{
     window.open("https://portfolio1-377406.du.r.appspot.com/","_blank", pcOption);
 }
@@ -16,7 +16,7 @@ let mobilePopup1 = ()=>{
     window.open("https://portfolio1-377406.du.r.appspot.com/","_blank", mobileOption);
 }
 
-// 포트폴리오2
+// ANYTHING
 let pcPopup2 = ()=>{
     window.open("https://portfolio2-377408.du.r.appspot.com/","_blank", pcOption);
 }
@@ -27,7 +27,7 @@ let mobilePopup2 = ()=>{
     window.open("https://portfolio2-377408.du.r.appspot.com/","_blank", mobileOption);
 }
 
-// 포트폴리오3
+// PBANK
 let pcPopup3 = ()=>{
     window.open("https://portfolio3-377408.du.r.appspot.com/","_blank", pcOption);
 }
@@ -36,4 +36,15 @@ let tabletPopup3 = ()=>{
 }
 let mobilePopup3 = ()=>{
     window.open("https://portfolio3-377408.du.r.appspot.com/","_blank", mobileOption);
+}
+
+// 롯데월드
+let pcPopup4 = ()=>{
+    window.open("https://superb-muffin-ee3d49.netlify.app/","_blank", pcOption);
+}
+let tabletPopup4 = ()=>{
+    window.open("https://superb-muffin-ee3d49.netlify.app/","_blank", "width=1200px, height=768px, top=100px, left=300px, resizable=no");
+}
+let mobilePopup4 = ()=>{
+    window.open("https://superb-muffin-ee3d49.netlify.app/","_blank", mobileOption);
 }
