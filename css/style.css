@@ -212,6 +212,7 @@ ul, ol, li {
   }
 }
 #wrap #header .title .typingWrap {
+  width: 1000px;
   position: relative;
   background-color: #289160;
 }
