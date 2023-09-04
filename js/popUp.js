@@ -6,9 +6,9 @@ let tabletOption = "width=1024px, height=768px, top=100px, left=300px, resizable
 let mobileOption = "width=420px, height=740px, top=100px, left=500px, resizable=no";
 
 // 링크 변수
-let pfLink1 = "https://sinuous-maker-392310.du.r.appspot.com/";
-let pfLink2 = "https://port2-392310.du.r.appspot.com/";
-let pfLink3 = "https://port3-392310.du.r.appspot.com/";
+let pfLink1 = "https://portfolio1-398005.du.r.appspot.com/";
+let pfLink2 = "https://portfolio2-398005.el.r.appspot.com/";
+let pfLink3 = "https://portfolio3-398005.el.r.appspot.com/";
 
 let lotteLink = "https://superb-muffin-ee3d49.netlify.app/";
 
